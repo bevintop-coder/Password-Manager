@@ -1,0 +1,6 @@
+{
+"name":"SecureVault",
+"version":"1.0",
+"encryption":"AES",
+"database":"SQLite"
+}
