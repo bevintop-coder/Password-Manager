@@ -1,0 +1,169 @@
+# ================================
+# 🔐 SecureVault Password Manager
+# ================================
+
+# ---------- Secrets & Credentials ----------
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+*.cer
+*.p12
+*.pfx
+secrets.json
+credentials.json
+config.local.json
+
+# ---------- Database / Sensitive Data ----------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+vault.db
+passwords.db
+credentials.db
+
+# ---------- Java ----------
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/.nb-gradle/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------- C / C++ ----------
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Build directories
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ---------- JavaScript / Web ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+
+# ---------- Android ----------
+.gradle/
+local.properties
+*.apk
+*.aab
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio
+.idea/
+*.iml
+
+# ---------- VS Code ----------
+.vscode/
+*.code-workspace
+
+# ---------- Operating System ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- Temporary Files ----------
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+
+# ---------- IDE / Editor ----------
+.history/
+.atom/
+*.sublime-workspace
+*.sublime-project
+
+# ---------- Generated / Runtime Files ----------
+*.cache
+*.pid
+*.lock
+
+# ---------- Local Vault / User Data ----------
+vault/
+data/
+storage/
+backup/
+backups/
+
+# Prevent accidental credential exports
+*.csv
+*.txt
+*.json.bak
+
+# ---------- Docker ----------
+.docker/
+docker-compose.override.yml
+
+# ---------- Documentation / Project Files ----------
+# Keep these tracked:
+# README.md
+# LICENSE
+# CONTRIBUTING.md
