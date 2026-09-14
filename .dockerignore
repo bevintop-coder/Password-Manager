@@ -1,0 +1,85 @@
+# Dependencies
+node_modules/
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Java
+*.class
+target/
+out/
+build/
+
+# C / C++
+*.o
+*.obj
+*.exe
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.iml
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.yaml
+
+# Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Databases & Local Storage
+*.db
+*.sqlite
+*.sqlite3
+data/
+database/
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Documentation / Project Metadata
+README.md
+LICENSE
+
+# Build / Cache
+.cache/
+dist/
+coverage/
+
+# Android
+.gradle/
+local.properties
+captures/
+
+# Generated Files
+*.bak
+*.backup
